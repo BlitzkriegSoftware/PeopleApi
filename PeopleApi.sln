@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{C9ABFCEB-7AA3-4CD3-8D36-5E8AFAFBCDC4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleApi.Rest", "PeopleApi.Rest\PeopleApi.Rest.csproj", "{A7C0E0F1-13DA-4398-8016-24A0C85DC301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StuartTWilliams.Rest.Helpers", "StuartTWilliams.Rest.Helpers\StuartTWilliams.Rest.Helpers.csproj", "{D5AB3205-F6CB-4363-A2DD-62814B06B9E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7C0E0F1-13DA-4398-8016-24A0C85DC301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C0E0F1-13DA-4398-8016-24A0C85DC301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C0E0F1-13DA-4398-8016-24A0C85DC301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C0E0F1-13DA-4398-8016-24A0C85DC301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5AB3205-F6CB-4363-A2DD-62814B06B9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5AB3205-F6CB-4363-A2DD-62814B06B9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5AB3205-F6CB-4363-A2DD-62814B06B9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5AB3205-F6CB-4363-A2DD-62814B06B9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {369C86E4-BB33-4056-A515-DAFE04CD3907}
+	EndGlobalSection
+EndGlobal
